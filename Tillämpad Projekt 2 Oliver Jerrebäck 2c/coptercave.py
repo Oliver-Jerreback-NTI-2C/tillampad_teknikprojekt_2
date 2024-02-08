@@ -191,7 +191,7 @@ while run:
             elif event.key == pygame.K_s or event.key == pygame.K_a: # ifall kanppen för att åka ner släpps kommer inte helikopern åka ner mer detta gäller även för joystick
                 flying_down = False
 
-    # Justera hastigheten och spacer baserat på poängen
+    # Justera hastigheten och spacer baserat på poängen även sätter en hastighetsgräns 
     map_speed = 5 + score // 75 
     if score >= 1430:
         map_speed = 19
