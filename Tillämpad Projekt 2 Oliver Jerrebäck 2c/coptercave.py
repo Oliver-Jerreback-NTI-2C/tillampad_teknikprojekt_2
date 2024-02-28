@@ -1,3 +1,9 @@
+# File name: coptercave.py
+# Author: Oliver Jerrebäck
+# Date:2024-02-08
+# Description: Ett helikopter spel som går ut på att inte stöta in i kanterna och överleva så länge så möjligt.
+
+
 import random  # Importera random modulen för slumpmässiga operationer
 import pygame  # Importera pygame modulen för spelutveckling
 
